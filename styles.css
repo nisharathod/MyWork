@@ -1,0 +1,166 @@
+body{
+    overflow:auto;
+   margin: 0px;
+   padding: 0px;
+}
+
+/* header css */
+.header{
+   
+    width: auto;
+    height: 115px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: slategray;
+    
+    
+}
+.btn{
+    margin-top: 42px;
+    float: left;
+    width: 150px;
+}
+.logo button{
+    float: left;
+
+    background-color:gray;
+    color: aliceblue;
+    overflow: hidden;
+    border: 1px  outset black;
+    width: 60px;
+    height: 25px;
+
+
+}
+.logo img{
+    margin-top: 12px;
+           height: 90px;
+           width: 100px;
+           float: left;
+}
+.logo h1{
+    color: rgb(0, 0, 0);
+    text-align:center;
+    margin-top: 23px;
+    padding-top: 10px;
+    font-family:Cambria;
+    font-style:oblique;
+    text-shadow:1px 1px royalblue;
+    font-size: 30px;
+    width: 1000px;
+    float: left;
+}
+/* header css ends */
+.menu{
+    width:10%;
+    float: left;
+    height: 650px;
+    border: 1px solid  black;
+    display: block;
+    background-color:gray;
+    border-right: outset;
+    
+}
+/*table css*/
+.disptable{
+    position: relative;
+}
+.disptable tr:nth-child(odd){
+    background-color:darkcyan;
+}
+.disptable tr:nth-child(even)
+{
+    background-color:forestgreen;
+}
+/*list css*/
+ol{
+    color:white;
+    font-style: italic;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:130px;
+    background-color:#555;
+}
+ul li{ 
+    padding: 10px;
+    display: block;
+    width:120px;
+    color:#000;
+    
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:firebrick;
+    color: white;
+}
+li a.active {
+    background-color: rgb(157, 240, 25);
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.content{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width:89.4%;
+    float:right;
+    height: 71%;
+    overflow:scroll;
+}
+#gallery{
+    border: 1px groove black;
+    overflow: auto;
+}
+#gallery img{
+    display: block-inline;
+    height: 240px;
+    width: 268px;
+    float: left;
+    padding: 20px;
+    margin-left: 8px;
+    
+}
+
+
+
+#gallery img:hover{
+    opacity: 0.6;
+}
+.tablecontent table{
+    width: 80%;
+    height: 30%;
+    
+}
+.content img{
+    height:100%;
+    width:100%;
+    background-repeat:repeat;
+
+}
+.allbg{
+    background-image: url("/home/stl-003/Documents/animals/images/bg2.jpg");
+    height: 100%;
+    width: 100%;
+
+}
+/*footer css */
+.footer{
+    text-align: center;
+    background-color: slategray;
+    width: 100%;
+    height: 50px;;
+    border: 2px solid black;
+    float: left;
+    
+}

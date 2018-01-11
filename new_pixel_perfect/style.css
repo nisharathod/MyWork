@@ -1,0 +1,31 @@
+.caption{
+    text-align: center;
+}
+.image img{
+    width: 100%;
+    background-color: black;
+}
+.caption p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.caption h5{
+    text-align: center;
+}
+body{
+    background-color: lightgray;
+}
+.imgout {
+    display: table;
+    height: 400px;
+
+}
+.image{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.caption button:hover{
+    background-color: darkgoldenrod;
+}

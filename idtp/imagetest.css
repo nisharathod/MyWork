@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .bg{
+     display: table;
+     height: 500px;
+     width: 500px;
+     border: 1px solid rgb(243, 9, 9);
+ }
+ .bg1{
+    display: table-cell;
+    vertical-align: middle;
+ }
+ .abc{
+     
+    
+     /* width: 400px;
+     height: 400px; */
+    
+ }

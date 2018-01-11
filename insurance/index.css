@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navitems{
+    margin-left: 20%;
+    padding-top: 25px;
+
+}
+#navheader{
+    margin-left: 60px;
+    color: black;
+    font-weight: bold;
+    padding-top: 28px;
+}
+
+.active{
+    background-color: transparent;
+}
+#navitems .active a{
+    color:rgb(99, 200, 231);
+    background-color: transparent;
+}
+#navitems li a{
+    color: blue;
+}
+#navitems li a:hover{
+    
+    color:rgb(99, 200, 231);
+}
+.carousel-caption h3{
+    float: left;
+
+}
+.textbg{
+    
+    
+    
+    
+    float: left;
+    left:2px;
+    height: 20%;
+    background-color:#e6cf8b;
+    width: 20%;
+    
+}
+h6{
+    font-size: 10px;
+    color: gray;
+}
+.white{
+    background-color: white;
+}
+.navbar{
+    background-color: white;
+    border:none;
+    margin: 0;
+}
